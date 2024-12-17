@@ -16,9 +16,13 @@ public class HelloServlet extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String id = request.getParameter("id");
+		String no = request.getParameter("no");
+		
+		System.out.println(id + ":" + no);
 		response.setContentType("text/html; charset=utf-8");
 		PrintWriter out = response.getWriter();
-		out.print("<h1>Hello World!!!</h1>");
+		out.print("<h1>Hello " + id + "</h1>");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

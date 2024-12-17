@@ -42,7 +42,8 @@
 					즐거워
 						뽀로뽀로
 							뽀로뽀로로~~!!!</pre>
-	<a href="/helloweb/hello">hello로 가자</a>
+							
+	<a href="/helloweb/hello?id=hwlee&no=20">hello로 가자</a>
 	<br/>
 	<a href="/helloweb/form.jsp">form으로 가자</a>
 	
