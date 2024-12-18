@@ -15,19 +15,5 @@
 	EmaillistDao dao = new EmaillistDao();
 	dao.insert(vo);
 	
-	
+	response.sendRedirect("/emaillist01");
 %>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>가입 정보</title>
-</head>
-<body>
-	<%=firstName %> <br/>
-	<%=lastName %> <br/>
-	<%=email %>
-	
-	<p><a href="/emaillist01/">리스트 바로가기</a></p>
-</body>
-</html>
