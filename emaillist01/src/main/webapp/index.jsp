@@ -1,10 +1,10 @@
-﻿<%@page import="emaillist.vo.EmaillistVo"%>
+<%@page import="emaillist.vo.EmaillistVo"%>
 <%@page import="java.util.List"%>
 <%@page import="emaillist.dao.EmaillistDao"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-	EmaillistDao dao = new EmaillistDao();
+EmaillistDao dao = new EmaillistDao();
 	List<EmaillistVo> list = dao.findAll();
 %>
 <html>
